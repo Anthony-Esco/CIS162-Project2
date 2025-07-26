@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style1.css">
+    <title>Code4Gold Contact Form</title>
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="https://www.flamingtext.com/">
+                <img src="https://blog.flamingtext.com/blog/2025/07/19/flamingtext_com_1752902533_1052469313.png" alt="Code4Gold Logo">
+            </a>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Mission Statement</a></li>
+                <li><a href="locations.html">Locations</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="padding">
+        <h1>
+            Form To Get Into Contact With Us!
+        </h1>
+    </section>
+    <form action="submission.html">
+        <label for="fname"><strong>First name:</strong></label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname"><strong>Last name:</strong></label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="email"><strong>Email:</strong></label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="reason"><strong>Reason For Contacting:</strong></label><br>
+        <textarea id="reason" name="reason" rows="5" cols="40"></textarea><br><br>
+        <p><strong>Are you at or over the age of 18?</strong></p>
+        <input type="radio" id="yes" name="age" value="yes">
+        <label for="yes">Yes, I am at or over the age of 18.</label><br>
+        <input type="radio" id="sorta" name="age" value="sorta">
+        <label for="sortof">No, but I have a parental authorization form.</label><br>
+        <input type="radio" id="no" name="age" value="no">
+        <label for="no">No, I am not at or over the age of 18 and do not have a parental authorization form.</label>
+        <p><strong>If you selected no to the previous question and do not have a parental authorization form, you will not be allowed to participate in any events held by Code4Gold.</strong></p>
+        <input type="submit" value="Submit"> <input type="reset">
+    </form>
+</body>
+</html>

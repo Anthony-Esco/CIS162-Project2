@@ -10,7 +10,7 @@ body {
     color: #0f1c2e;
 }
 
-.container {
+#container {
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
@@ -62,7 +62,7 @@ nav {
             color: #a7c7e7;
             text-decoration: underline;}
 
-.oneColumnLayout {
+#oneColumnLayout {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -76,6 +76,10 @@ section {
     border: none;
     box-shadow: none;
     width: 100%;
+}
+
+#padding {
+    padding: 20px;
 }
 
 h2 {
@@ -98,3 +102,18 @@ footer {
         footer a:hover {
             color: #a7c7e7;
         }
+form {
+    
+    margin: 0 auto;
+    padding: 20px;
+}
+input[type=text] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+input[type=radio] {
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
