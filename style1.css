@@ -58,16 +58,18 @@ nav {
         transition: color 0.3s ease;
     }
 
-    nav a:hover {
+        nav a:hover {
             color: #a7c7e7;
-            text-decoration: underline;}
+            text-decoration: underline;
+        }
 
 #oneColumnLayout {
     display: flex;
     flex-direction: column;
     gap: 30px;
     align-items: center;
-    padding: 20px;}
+    padding: 20px;
+}
 
 section {
     margin-bottom: 20px;
@@ -102,17 +104,19 @@ footer {
         footer a:hover {
             color: #a7c7e7;
         }
+
 form {
-    
     margin: 0 auto;
     padding: 20px;
 }
+
 input[type=text] {
     width: 25%;
     padding: 12px 20px;
     margin: 10px 0;
     box-sizing: border-box;
 }
+
 input[type=radio] {
     padding: 12px 20px;
     box-sizing: border-box;
